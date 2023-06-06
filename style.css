@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./Norse-Bold.otf);
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    display: flex;
+}
+
+.bgImage {
+    background-image: url(./img/bg.jpg);
+    background-size: 80vh;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    position: relative;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    width: 485px;
+    margin-top: 190px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+img {
+    height: 20vh;
+    margin-left: 60px;
+}
+
+.logoText {
+    font-family: Norse-Bold;
+    font-size: 9rem;
+    font-weight: 900;
+}
+
+.credit {
+    color: white;
+    margin-left: 80px;
+    margin-top: auto;
+    padding: 20px;
+}
+
+a {
+    color: white;
+}
+
+.form {
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.p1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    padding-left: 30px;
+    padding-right: 80px;
+}
+ 
+@media only screen and (max-width: 500px) {
+    body {
+      flex-wrap: wrap;
+    }
+}
+
+.form-input {
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(180, 175, 175);
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+
+.sub {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.f1,.f2,.f3 {
+    font-weight: 600;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.name {
+    display: flex;
+    gap: 187px;
+}
+
+.emNum {
+    display: flex;
+    gap: 235px;
+}
+
+.pass {
+    display: flex;
+    gap: 189px;
+}
+
+  .input {
+    display: flex;
+    gap: 80px;
+  }
+
+  input {
+    border: 1px solid  rgb(207, 213, 218);
+    border-radius: 3px;
+    padding: 7px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+  }
+
+  input:focus:valid {
+    border: 3px solid blueviolet;
+  }
+
+  input:focus:invalid {
+    border: 3px dotted red;
+  }
+
+  button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 900;
+    background-color: #1f051e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  button:hover {
+    background-color: #380936;
+  }
+
+  .last {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9rem;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .login {
+    color: #1f051e;
+    font-weight: 900;
+  }
