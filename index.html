@@ -13,7 +13,7 @@
 <body>
     <div class="bgImage">
         <div class="logo"><img src="./img/odin-lined.png" alt="odin"><span class="logoText">ODIN</span></div>
-        <div class="credit">Photo by <a href="https://unsplash.com/@timformat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Timothée Duran</a> on <a href="https://unsplash.com/photos/ilfsT5p_qvA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        <div class="credit">Photo by <a href="https://unsplash.com/@jjying?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">JJ Ying</a> on <a href="https://unsplash.com/wallpapers/cool/abstract?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         </div>
     </div>
     <div class="form">
@@ -21,33 +21,29 @@
             <form action=" " method="post">
                 <div class="form-input">
                     <div class="sub">Let's do this!</div>
-                    <div class="f1">
-                        <div class="label name">
+                    <div class="content">
+                        <div class="fname input">
                             <label for="fName">FIRST NAME</label>
-                            <label for="lName">LAST NAME</label>
-                        </div>
-                        <div class="input">
                             <input type="text" id="first-name" name="first-name" required pattern="[a-zA-z]+">
+                        </div>
+                        <div class="lname input">
+                            <label for="lName">LAST NAME</label>
                             <input type="text" id="last-name" name="last-name" required pattern="[a-zA-z]+">
                         </div>
-                    </div>
-                    <div class="f2">
-                        <div class="label emNum">
+                        <div class="email input">
                             <label for="email">EMAIL</label>
-                            <label for="phone-number">PHONE NUMBER</label>
-                        </div>
-                        <div class="input">
                             <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="pnum input">
+                            <label for="phone-number">PHONE NUMBER</label>
                             <input type="tel" id="phone-number" name="phone-number" required maxlength="10" minlength="10" pattern="[0-9]{10}">
                         </div>
-                    </div>
-                    <div class="f3">
-                        <div class="label pass">
+                        <div class="pass input">
                             <label for="password">PASSWORD</label>
-                            <label for="cPassword">CONFIRM PASSWORD</label>
-                        </div>
-                        <div class="input">
                             <input type="password" id="password" name="password" required maxlength="8" minlength="8">
+                        </div>
+                        <div class="cpass input">
+                            <label for="cPassword">CONFIRM PASSWORD</label>
                             <input type="password" id="cPassword" name="cPassword" required maxlength="8" minlength="8">
                         </div>
                     </div>
